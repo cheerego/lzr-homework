@@ -10,7 +10,7 @@
           <div>
             <router-link to="/pub" class="nav-link">十八号酒馆</router-link>
             <router-link to="/verfine" class="nav-link">十八精酿</router-link>
-            <router-link to="/" class="nav-link last">跨界合作</router-link>
+            <router-link to="/pub" class="nav-link last">跨界合作</router-link>
           </div>
         </div>
       </div>

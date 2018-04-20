@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import Pub from '@/components/Pub';
 import Verfine from '@/components/Verfine';
+import TeamWork from '@/components/TeamWork'
 
 Vue.use(Router)
 
@@ -10,7 +10,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Pub',
+      name: 'home',
       component: Pub
     },
     {
@@ -22,6 +22,10 @@ export default new Router({
       path: '/verfine',
       name: 'Verfine',
       component: Verfine
+    },{
+      path: '/team-work',
+      name: 'TeamWork',
+      component: TeamWork
     }
   ]
 })
