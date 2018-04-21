@@ -4,7 +4,7 @@
       <img :src="btns.play" alt="" :class="hoverCss" @click.stop="changeVideo" v-show="!isPlay">
       <img :src="btns.paused" alt="" :class="hoverCss" @click.stop="changeVideo" v-show="isPlay">
     </div>
-    <video @mouseleave="changeIsShowPlay" @mouseenter="changeIsShowPlay2" id="myvideo" src="./../assets/video/movie2.mp4"></video>
+    <video @mouseleave="changeIsShowPlay" @mouseenter="changeIsShowPlay2" id="myvideo" src="./../assets/video/宣传视频.mp4"></video>
     <!--</div>-->
   </div>
 
