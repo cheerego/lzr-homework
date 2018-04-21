@@ -4,36 +4,21 @@
     <swiper :options="swiperOption" ref="mySwiper" >
       <swiper-slide>
         <div class="bg bg1">
-          <div class="text" style="left:2rem;color: black;text-shadow: 1px 1px 5px #fff">
-            <p>
-              “自有的精酿啤酒品牌“拾捌精酿”，也是最早一批国内的先驱品牌，从产品设计、品控等多个环节处于行业领先地位，成为被爱好者广泛追捧的品牌。”——啤酒专业媒体IMBEER
-            </p>
-          </div>
-        </div>
-      </swiper-slide>
-      <swiper-slide>
-        <div class="bg bg2">
           <div class="text">
-            <div class="title" data-swiper-parallax="-100">跳东湖</div>
-            <p>武汉年轻人夏日的狂欢——跳东湖活动（跳东湖活动被国内外媒体VICE、路透社、lonely plante、百度、今日头条、FM92.7楚天交通广播、FM105.8楚天音乐广播、  FM107.8湖北私家车广播、上海电视台第一财经频道、湖北经视、武汉电视台新闻频道、武汉电视台文体频道对跳东湖活动进行报道传播）</p>
+            <div class="title" data-swiper-parallax="-100">酿酒师姜麒</div>
+            <p>
+              拾捌精酿主酿酒师，唯一获得啤酒世界杯（IBC）冠军的中国籍酿酒师。
+              湖北自酿协会发起人，慕尼黑工业大学认证啤酒酿造师，中国轻工部啤酒酿造高级技工。
+              2009 年从武汉啤酒学校毕业后，一直从事小型啤酒酿造行业，在上海多家餐饮公司任酿酒师职位。
+              2012 年回到武汉，致力于推广精酿文化，曾经任职于比利时督威贸易武汉分公司，后与 18 号酒馆合作负责酿酒，并拥有自己的小型酒厂。
+            </p>
           </div>
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="bg bg3">
-          <div class="text" style="right: 0;color: black;text-shadow: 1px 1px 5px #000">
-            <div class="title" data-swiper-parallax="-100">跳东湖IPA</div>
-            <p>为纪念武汉每年一次青年人的节日“跳东湖”我们把这款酒命名为“跳东湖·IPA”，它投入了大量的美式酒花，有着热带水果的奔放，和草本的清香。使用了高质量的比利时麦芽，酒体清澈透亮，饱满的麦芽的甜味和酒花的回甘，是一款十分标准的美式IPA产品。
-            </p>
-          </div>
-        </div>
-        <div class="bg bg4">
-          <div class="text" style="right: 2rem;color: black;text-shadow: 1px 1px 5px #000">
-            <div class="title" data-swiper-parallax="-100">胶片机</div>
-            <p>
-              以武汉独立摄影师张哿的名字为名，这款酒和胶片机整体的感受类似：厚、醇、甜、极具隐藏感。
-              它用10种不同麦芽和谷物，打破传统世涛啤酒焦苦感觉，咖啡，巧克力，太妃糖香味混合丝滑如牛奶的口感，简直就是一杯香浓拿铁，我们突破了技术壁垒，将瓶啤中注入了氮气，让口感更为醇厚，也是国内第一款氮气啤酒。
-            </p>
+        <div class="bg2">
+          <div class="text">
+            <p>我的初衷是为了让更多中国人体验到精酿与美食的魅力，我们精选原料，采用先进的设备工艺，致力于酿造更好喝并极具个性的啤酒，烹饪出健康且风味十足的餐食。</p>
           </div>
         </div>
       </swiper-slide>
@@ -96,25 +81,17 @@
     height: 100%;
   }
   .bg1{
-    background: url("./../assets/verfine/bg-v-1.jpg") no-repeat left;
-    background-size: 100% 100%;
+    background: url("./../assets/us/bg1.jpg") no-repeat;
+    background-size: cover;
     /*background-size: auto 100%;*/
   }
   .bg2{
-    background: url("./../assets/verfine/bg-v-2.jpg") no-repeat;
+    position: absolute;
+    /*width: 60%;*/
+    width: 100%;
+    height: 100%;
+    background: url("./../assets/us/bg2.jpg") no-repeat center 35%;
     background-size: cover;
-  }
-  .bg3{
-    width: 55%;
-    background: url("./../assets/verfine/bg-v-3.jpg") no-repeat;
-    background-size: contain;
-    left: 0;
-  }
-  .bg4{
-    width: 45%;
-    right: 0;
-    background: url("./../assets/verfine/bg-v-4.jpg") no-repeat;
-    background-size: contain;
   }
   p{
     line-height: 2rem;
@@ -177,8 +154,4 @@
     text-shadow: 1px 1px 5px #000;
     letter-spacing:3px
   }
-  /*.swiper-slide .text:first-of-type {*/
-    /*left: 2rem;*/
-  /*}*/
-
 </style>

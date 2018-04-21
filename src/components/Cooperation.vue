@@ -4,9 +4,12 @@
     <swiper :options="swiperOption" ref="mySwiper" >
       <swiper-slide>
         <div class="bg bg1">
-          <div class="text" style="left:2rem;color: black;text-shadow: 1px 1px 5px #fff">
+          <div class="text">
+            <div class="title" data-swiper-parallax="-100">18号酒馆 x Σόλο（希腊）</div>
             <p>
-              “自有的精酿啤酒品牌“拾捌精酿”，也是最早一批国内的先驱品牌，从产品设计、品控等多个环节处于行业领先地位，成为被爱好者广泛追捧的品牌。”——啤酒专业媒体IMBEER
+              我们和来自希腊的世界级精酿厂牌 【Σόλο】 酒厂合酿了两款极具武汉特色的啤酒。
+              加入小米椒的”武汉热·Porter“ 和 加入了普洱茶的 “克里特岛跳东湖·IPA”。
+              两款啤酒均在中国和欧洲市场发售！
             </p>
           </div>
         </div>
@@ -14,25 +17,34 @@
       <swiper-slide>
         <div class="bg bg2">
           <div class="text">
-            <div class="title" data-swiper-parallax="-100">跳东湖</div>
-            <p>武汉年轻人夏日的狂欢——跳东湖活动（跳东湖活动被国内外媒体VICE、路透社、lonely plante、百度、今日头条、FM92.7楚天交通广播、FM105.8楚天音乐广播、  FM107.8湖北私家车广播、上海电视台第一财经频道、湖北经视、武汉电视台新闻频道、武汉电视台文体频道对跳东湖活动进行报道传播）</p>
+            <div class="title" data-swiper-parallax="-100">18 号酒馆 X 京A</div>
+            <p>
+              来自北京的中国精酿啤酒厂牌京 A 团队 6 月专程来到武汉，体验「过早」魅力。我们碰撞并商讨联合酿造了一款有武汉过早味道的 早餐世涛，取名「过早」。
+              纪录片导演麦克峰全程跟拍、记录了此次的「京汉合酿」之行，来自武汉多家新媒体转载酿酒体验全记录。
+            </p>
           </div>
         </div>
       </swiper-slide>
       <swiper-slide>
         <div class="bg bg3">
-          <div class="text" style="right: 0;color: black;text-shadow: 1px 1px 5px #000">
-            <div class="title" data-swiper-parallax="-100">跳东湖IPA</div>
-            <p>为纪念武汉每年一次青年人的节日“跳东湖”我们把这款酒命名为“跳东湖·IPA”，它投入了大量的美式酒花，有着热带水果的奔放，和草本的清香。使用了高质量的比利时麦芽，酒体清澈透亮，饱满的麦芽的甜味和酒花的回甘，是一款十分标准的美式IPA产品。
-            </p>
-          </div>
+          <!--<div class="text">-->
+            <!--<div class="title" data-swiper-parallax="-100">18 号酒馆 X VICE中国</div>-->
+            <!--<p>-->
+              <!--VICE 团队（全球青年文化之声）在这个夏天来到武汉，与 18 号酒馆一起记录并完成了 TOP 5、大厨小吃系列作品的拍摄。《中国精酿热》这部由VICE中国出品的记录片在网路引起众多年轻人的关注。-->
+            <!--</p>-->
+          <!--</div>-->
         </div>
+      </swiper-slide>
+      <swiper-slide>
         <div class="bg bg4">
-          <div class="text" style="right: 2rem;color: black;text-shadow: 1px 1px 5px #000">
-            <div class="title" data-swiper-parallax="-100">胶片机</div>
+          <div class="text">
+            <div class="title" data-swiper-parallax="-100">18 号酒馆 X Randomevent</div>
             <p>
-              以武汉独立摄影师张哿的名字为名，这款酒和胶片机整体的感受类似：厚、醇、甜、极具隐藏感。
-              它用10种不同麦芽和谷物，打破传统世涛啤酒焦苦感觉，咖啡，巧克力，太妃糖香味混合丝滑如牛奶的口感，简直就是一杯香浓拿铁，我们突破了技术壁垒，将瓶啤中注入了氮气，让口感更为醇厚，也是国内第一款氮气啤酒。
+              我们和国内顶尖潮流品牌 "Randomevent" 联名
+              推出 2017 合作款系列 "Beer Revolution" 啤酒革命
+              我们同样受着欧美及日本的影响
+              同样注重设计与工艺
+              也同样影响着新一代年轻人的生活方式
             </p>
           </div>
         </div>
@@ -96,26 +108,22 @@
     height: 100%;
   }
   .bg1{
-    background: url("./../assets/verfine/bg-v-1.jpg") no-repeat left;
-    background-size: 100% 100%;
-    /*background-size: auto 100%;*/
+    background: url("./../assets/cooperation/bg-c-1-2.jpg") no-repeat left 20%;
+    background-size: cover;
   }
   .bg2{
-    background: url("./../assets/verfine/bg-v-2.jpg") no-repeat;
+    background: url("./../assets/cooperation/bg-c-2-2.jpg") no-repeat left 10%;
     background-size: cover;
   }
   .bg3{
-    width: 55%;
-    background: url("./../assets/verfine/bg-v-3.jpg") no-repeat;
+    background: url("./../assets/cooperation/bg-c-3.jpg") no-repeat center;
     background-size: contain;
-    left: 0;
   }
   .bg4{
-    width: 45%;
-    right: 0;
-    background: url("./../assets/verfine/bg-v-4.jpg") no-repeat;
+    background: url("./../assets/cooperation/bg-c-4-2.jpg") no-repeat;
     background-size: contain;
   }
+
   p{
     line-height: 2rem;
   }
@@ -166,7 +174,7 @@
   }
   .swiper-slide .text {
     font-size: 14px;
-    max-width: 400px;
+    max-width: 550px;
     line-height: 1.3;
     /*float: right;*/
     color: #fff;
@@ -177,8 +185,4 @@
     text-shadow: 1px 1px 5px #000;
     letter-spacing:3px
   }
-  /*.swiper-slide .text:first-of-type {*/
-    /*left: 2rem;*/
-  /*}*/
-
 </style>
