@@ -39,7 +39,7 @@
       </swiper-slide>
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
-    <!--<div class="my-swiper-button-next" @click="next"></div>-->
+    <div class="my-swiper-button-next" @click="next"></div>
   </div>
 </template>
 
@@ -166,7 +166,7 @@
   }
   .swiper-slide .text {
     font-size: 14px;
-    max-width: 400px;
+    max-width: 350px;
     line-height: 1.3;
     /*float: right;*/
     color: #fff;
