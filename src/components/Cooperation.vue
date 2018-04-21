@@ -38,8 +38,8 @@
       <swiper-slide>
         <div class="bg bg4">
           <div class="text">
-            <div class="title" data-swiper-parallax="-100">18 号酒馆 X Randomevent</div>
-            <p>
+            <div class="title" data-swiper-parallax="-100" style="text-shadow: 1px 1px 6px #ffffff;color: black">18 号酒馆 X Randomevent</div>
+            <p style=" text-shadow: 1px 1px 5px #ffffff;color: black">
               我们和国内顶尖潮流品牌 "Randomevent" 联名
               推出 2017 合作款系列 "Beer Revolution" 啤酒革命
               我们同样受着欧美及日本的影响
