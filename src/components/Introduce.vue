@@ -27,7 +27,7 @@
       </swiper-slide>
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
-    <!--<div class="my-swiper-button-next" @click="next"></div>-->
+    <div class="my-swiper-button-next" @click="next"></div>
   </div>
 </template>
 

@@ -8,12 +8,12 @@
 
         <div class="nav-links" >
           <div style="position: relative;height: 100%;line-height: 7.5vh;float: right">
-            <router-link to="/pub" class="nav-link"><span @mouseenter="changeIsShowSubLink" @mouseleave="changeIsShowSubLink2">拾捌号酒馆</span>
+            <router-link to="/pub" class="nav-link"><span @mouseenter="changeIsShowSubLink" @mouseleave="changeIsShowSubLink2">18号酒馆</span>
             </router-link>
             <router-link to="/verfine" class="nav-link"><span>拾捌精酿</span></router-link>
             <router-link to="/cooperation" class="nav-link last"><span>跨界合作</span></router-link>
             <ul class="sub-link" v-show="isShowSubLink" @mouseenter="changeIsShowSubLink" @mouseleave="changeIsShowSubLink2">
-              <router-link to="/introduce" class="nav-link" tag="li"><span>介绍</span></router-link>
+              <router-link to="/introduce" class="nav-link" tag="li"><span>介&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;绍</span></router-link>
               <router-link to="/us" class="nav-link last" tag="li"><span>团队成员</span></router-link>
             </ul>
           </div>
@@ -72,6 +72,9 @@
     /*height: 7.5vh;*/
     line-height: 5vh;
   }
+  .sub-link li:hover {
+  background: red;
+  }
   .nav {
     height: 15vh;
   }
@@ -124,6 +127,7 @@
 
   a:hover {
     text-decoration: underline;
+    background: red;
   }
 
   a:visited {
